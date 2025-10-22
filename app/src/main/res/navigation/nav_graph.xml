@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <!-- Authentication Flow -->
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.cal2hubapp.ui.auth.SplashFragment"
+        android:label="Cal2Hub" />
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.cal2hubapp.ui.auth.LoginFragment"
+        android:label="Login" />
+
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.cal2hubapp.ui.auth.RegisterFragment"
+        android:label="Register" />
+
+    <!-- Main Learning Flow -->
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.cal2hubapp.ui.chapters.ChaptersFragment"
+        android:label="Chapters" />
+
+    <fragment
+        android:id="@+id/competenciesFragment"
+        android:name="com.example.cal2hubapp.ui.competencies.CompetenciesFragment"
+        android:label="Learning Competencies" />
+
+    <fragment
+        android:id="@+id/lectureFragment"
+        android:name="com.example.cal2hubapp.ui.lecture.LectureFragment"
+        android:label="Learning Essentials" />
+
+    <!-- Quiz System -->
+    <fragment
+        android:id="@+id/quizFragment"
+        android:name="com.example.cal2hubapp.ui.quiz.QuizFragment"
+        android:label="Chapter Quiz" />
+
+    <fragment
+        android:id="@+id/quizResultFragment"
+        android:name="com.example.cal2hubapp.ui.quiz.QuizResultFragment"
+        android:label="Quiz Result" />
+
+    <fragment
+        android:id="@+id/masterExamFragment"
+        android:name="com.example.cal2hubapp.ui.exam.MasterExamFragment"
+        android:label="Master Exam" />
+
+    <fragment
+        android:id="@+id/congratsFragment"
+        android:name="com.example.cal2hubapp.ui.congrats.CongratsFragment"
+        android:label="Congratulations" />
+
+    <!-- Drawer Menu Screens -->
+    <fragment
+        android:id="@+id/myAccountFragment"
+        android:name="com.example.cal2hubapp.ui.account.MyAccountFragment"
+        android:label="My Account" />
+
+    <fragment
+        android:id="@+id/myPerformanceFragment"
+        android:name="com.example.cal2hubapp.ui.performance.MyPerformanceFragment"
+        android:label="My Performance" />
+
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.cal2hubapp.ui.about.AboutFragment"
+        android:label="About" />
+
+</navigation>

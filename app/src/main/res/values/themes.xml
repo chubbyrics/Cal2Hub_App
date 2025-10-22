@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base app theme -->
+    <style name="Theme.Cal2HubApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Brand Colors -->
+        <item name="colorPrimary">@color/orange_primary</item>
+        <item name="colorPrimaryContainer">@color/orange_primary_dark</item>
+        <item name="colorSecondary">@color/orange_accent</item>
+
+        <!-- On Colors -->
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Status & Navigation Bars -->
+        <item name="android:statusBarColor">@color/orange_primary_dark</item>
+        <item name="android:navigationBarColor">@color/orange_primary</item>
+
+        <!-- Disable ActionBar -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

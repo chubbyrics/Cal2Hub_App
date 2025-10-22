@@ -1,0 +1,47 @@
+[
+  {
+    "id": "1",
+    "title": "Integration Techniques",
+    "description": "Learn various methods of integration including substitution, integration by parts, and partial fractions."
+  },
+  {
+    "id": "2",
+    "title": "Applications of Integration",
+    "description": "Explore real-world applications of integration including area, volume, and arc length calculations."
+  },
+  {
+    "id": "3",
+    "title": "Integrals of Trigonometric/Logarithmic/Exponential/Hyperbolic/Inverse Trigonometric Functions",
+    "description": "Master integration techniques for advanced function classes."
+  },
+  {
+    "id": "4",
+    "title": "Parametric Equations",
+    "description": "Study parametric equations and their applications in describing curves and motion."
+  },
+  {
+    "id": "5",
+    "title": "Polar Coordinates",
+    "description": "Master polar coordinate systems and their relationship with Cartesian coordinates."
+  },
+  {
+    "id": "6",
+    "title": "Integration by Partial Fractions",
+    "description": "Decompose complex rational functions into simpler fractions to enable integration."
+  },
+  {
+    "id": "7",
+    "title": "Sequences & Series",
+    "description": "Understand infinite sequences and series, convergence tests, and power series."
+  },
+  {
+    "id": "8",
+    "title": "Application of Integrals",
+    "description": "Apply integration to compute area, volume, work, and analyze motion."
+  },
+  {
+    "id": "9",
+    "title": "Double Integrals",
+    "description": "Extend integration to functions of two variables for volume and area calculations."
+  }
+]

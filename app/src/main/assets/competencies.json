@@ -1,0 +1,134 @@
+[
+  {
+    "id": "1.1",
+    "chapterId": "1",
+    "title": "Basic Integration Formulas",
+    "description": "Apply fundamental integration formulas for constants, polynomials, exponentials, and basic functions."
+  },
+  {
+    "id": "1.2",
+    "chapterId": "1",
+    "title": "Trigonometric and Hyperbolic Integrals",
+    "description": "Integrate trigonometric, hyperbolic, and inverse trigonometric functions using standard formulas."
+  },
+  {
+    "id": "2.1",
+    "chapterId": "2",
+    "title": "Integration by Substitution",
+    "description": "Apply u-substitution method as the reverse process of chain rule for differentiation."
+  },
+  {
+    "id": "2.2",
+    "chapterId": "2",
+    "title": "Substitution Applications",
+    "description": "Use substitution to integrate composite functions, rational functions, and trigonometric forms."
+  },
+  {
+    "id": "3.1",
+    "chapterId": "3",
+    "title": "Integrals of Trigonometric Functions",
+    "description": "Find antiderivatives of sin(x), cos(x), tan(x), sec(x), csc(x), cot(x) and their powers."
+  },
+  {
+    "id": "3.2",
+    "chapterId": "3",
+    "title": "Integrals of Exponential and Logarithmic Functions",
+    "description": "Integrate exponential functions e^x, a^x and logarithmic functions including ln(x)."
+  },
+  {
+    "id": "3.3",
+    "chapterId": "3",
+    "title": "Integrals of Hyperbolic and Inverse Trigonometric Functions",
+    "description": "Integrate hyperbolic functions and recognize integrals that yield inverse trigonometric results."
+  },
+  {
+    "id": "4.1",
+    "chapterId": "4",
+    "title": "Integration by Parts Formula",
+    "description": "Apply the integration by parts formula ∫udv = uv - ∫vdu to products of functions."
+  },
+  {
+    "id": "4.2",
+    "chapterId": "4",
+    "title": "Advanced Integration by Parts",
+    "description": "Use repeated integration by parts and handle special cases like ∫ln(x)dx, ∫e^x sin(x)dx."
+  },
+  {
+    "id": "5.1",
+    "chapterId": "5",
+    "title": "Trigonometric Substitution Concepts",
+    "description": "Apply trigonometric substitutions for integrals containing √(a²-x²), √(a²+x²), √(x²-a²)."
+  },
+  {
+    "id": "5.2",
+    "chapterId": "5",
+    "title": "Trigonometric Substitution Applications",
+    "description": "Use x = a sinθ, x = a tanθ, x = a secθ substitutions to evaluate challenging integrals with radicals."
+  },
+  {
+    "id": "6.1",
+    "chapterId": "6",
+    "title": "Partial Fraction Decomposition",
+    "description": "Decompose proper rational functions into simpler partial fractions based on denominator factors."
+  },
+  {
+    "id": "6.2",
+    "chapterId": "6",
+    "title": "Integration Using Partial Fractions",
+    "description": "Apply partial fraction decomposition to integrate rational functions with linear and quadratic factors."
+  },
+  {
+    "id": "7.1",
+    "chapterId": "7",
+    "title": "Definite Integral Definition and Properties",
+    "description": "Understand definite integrals as limits of Riemann sums and apply basic properties."
+  },
+  {
+    "id": "7.2",
+    "chapterId": "7",
+    "title": "Fundamental Theorem of Calculus",
+    "description": "Apply the Fundamental Theorem to evaluate definite integrals using antiderivatives."
+  },
+  {
+    "id": "7.3",
+    "chapterId": "7",
+    "title": "Geometric Interpretation of Definite Integrals",
+    "description": "Interpret definite integrals as signed areas under curves and apply to area calculations."
+  },
+  {
+    "id": "8.1",
+    "chapterId": "8",
+    "title": "Area Under Curves and Between Curves",
+    "description": "Calculate areas under curves and between two curves using definite integrals."
+  },
+  {
+    "id": "8.2",
+    "chapterId": "8",
+    "title": "Volumes of Solids of Revolution",
+    "description": "Find volumes using disk, washer, and cylindrical shell methods for solids of revolution."
+  },
+  {
+    "id": "8.3",
+    "chapterId": "8",
+    "title": "Arc Length and Surface Area",
+    "description": "Calculate arc lengths of curves and surface areas of solids of revolution."
+  },
+  {
+    "id": "8.4",
+    "chapterId": "8",
+    "title": "Applications to Physics",
+    "description": "Apply integration to solve work, force, pressure, and rectilinear motion problems."
+  },
+  {
+    "id": "9.1",
+    "chapterId": "9",
+    "title": "Double Integrals over Rectangular Regions",
+    "description": "Evaluate double integrals over rectangular regions and interpret as volumes."
+  },
+  {
+    "id": "9.2",
+    "chapterId": "9",
+    "title": "Applications of Double Integrals",
+    "description": "Use double integrals to calculate areas, volumes, and other quantities for functions of two variables."
+  }
+]

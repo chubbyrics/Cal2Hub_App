@@ -1,0 +1,2342 @@
+[
+  {
+    "id": "1.1.1",
+    "chapterId": "1",
+    "question": "What is the integral of ∫7 dx?",
+    "options": [
+      "7x + C",
+      "7x² + C",
+      "x⁷ + C",
+      "7 + C"
+    ],
+    "correctAnswer": 0,
+    "feedback": "The integral of a constant k is kx + C."
+  },
+  {
+    "id": "1.1.2",
+    "chapterId": "1",
+    "question": "Evaluate ∫x⁴ dx.",
+    "options": [
+      "x⁴/4 + C",
+      "x⁵/5 + C",
+      "4x + C",
+      "x⁵ + C"
+    ],
+    "correctAnswer": 1,
+    "feedback": "Using ∫xⁿ dx = xⁿ⁺¹/(n+1) + C, substitute n = 4."
+  },
+  {
+    "id": "1.1.3",
+    "chapterId": "1",
+    "question": "What is ∫0 dx?",
+    "options": [
+      "0",
+      "C",
+      "x + C",
+      "1"
+    ],
+    "correctAnswer": 1,
+    "feedback": "The integral of 0 is a constant, C."
+  },
+  {
+    "id": "1.1.4",
+    "chapterId": "1",
+    "question": "Evaluate ∫3x² dx.",
+    "options": [
+      "x³ + C",
+      "3x³/3 + C",
+      "3x + C",
+      "x² + C"
+    ],
+    "correctAnswer": 0,
+    "feedback": "∫xⁿ dx = xⁿ⁺¹/(n+1) + C; so 3x² → 3(x³/3) = x³ + C."
+  },
+  {
+    "id": "1.1.5",
+    "chapterId": "1",
+    "question": "The formula ∫eˣ dx = ?",
+    "options": [
+      "ln x + C",
+      "eˣ + C",
+      "xeˣ + C",
+      "x + C"
+    ],
+    "correctAnswer": 1,
+    "feedback": "The exponential function eˣ integrates to itself."
+  },
+  {
+    "id": "1.1.6",
+    "chapterId": "1",
+    "question": "What is ∫1/x dx?",
+    "options": [
+      "x + C",
+      "eˣ + C",
+      "ln |x| + C",
+      "1/x + C"
+    ],
+    "correctAnswer": 2,
+    "feedback": "The integral of 1/x is ln |x| + C."
+  },
+  {
+    "id": "1.1.7",
+    "chapterId": "1",
+    "question": "Evaluate ∫aˣ dx where a > 0, a ≠ 1.",
+    "options": [
+      "aˣ + C",
+      "aˣ/ln(a) + C",
+      "ln(aˣ) + C",
+      "x/a + C"
+    ],
+    "correctAnswer": 1,
+    "feedback": "∫aˣ dx = aˣ/ln(a) + C."
+  },
+  {
+    "id": "1.1.8",
+    "chapterId": "1",
+    "question": "Which of the following integrals equals 2 ln |x| + C?",
+    "options": [
+      "∫2/x dx",
+      "∫2x dx",
+      "∫x² dx",
+      "∫2x² dx"
+    ],
+    "correctAnswer": 0,
+    "feedback": "Using ∫1/x dx = ln |x| + C, multiply by 2."
+  },
+  {
+    "id": "1.1.9",
+    "chapterId": "1",
+    "question": "What is the result of ∫e⁴ˣ dx?",
+    "options": [
+      "e⁴ˣ + C",
+      "e⁴ˣ/4 + C",
+      "4e⁴ˣ + C",
+      "ln(e⁴ˣ) + C"
+    ],
+    "correctAnswer": 1,
+    "feedback": "∫eᵏˣ dx = eᵏˣ/k + C."
+  },
+  {
+    "id": "1.1.10",
+    "chapterId": "1",
+    "question": "Evaluate ∫cos(x) dx.",
+    "options": [
+      "sin(x) + C",
+      "-sin(x) + C",
+      "tan(x) + C",
+      "sec(x) + C"
+    ],
+    "correctAnswer": 0,
+    "feedback": "The derivative of sin(x) is cos(x)."
+  },
+  {
+    "id": "1.1.11",
+    "chapterId": "1",
+    "question": "∫sec²(x) dx = ?",
+    "options": [
+      "sec(x) + C",
+      "tan(x) + C",
+      "cot(x) + C",
+      "sin(x) + C"
+    ],
+    "correctAnswer": 1,
+    "feedback": "Since d/dx(tan x) = sec² x, the integral gives tan x + C."
+  },
+  {
+    "id": "1.1.12",
+    "chapterId": "1",
+    "question": "Find ∫csc²(x) dx.",
+    "options": [
+      "-cot(x) + C",
+      "cot(x) + C",
+      "-csc(x) + C",
+      "sin(x) + C"
+    ],
+    "correctAnswer": 0,
+    "feedback": "The derivative of cot(x) is -csc²(x)."
+  },
+  {
+    "id": "1.1.13",
+    "chapterId": "1",
+    "question": "∫sec(x)tan(x) dx = ?",
+    "options": [
+      "sec(x) + C",
+      "tan(x) + C",
+      "cot(x) + C",
+      "sin(x) + C"
+    ],
+    "correctAnswer": 0,
+    "feedback": "The derivative of sec(x) is sec(x)tan(x)."
+  },
+  {
+    "id": "1.1.14",
+    "chapterId": "1",
+    "question": "Evaluate ∫tan(x) dx.",
+    "options": [
+      "cot(x) + C",
+      "ln |sec(x)| + C",
+      "ln |cos(x)| + C",
+      "sec(x) + C"
+    ],
+    "correctAnswer": 1,
+    "feedback": "∫tan(x) dx = ln |sec(x)| + C."
+  },
+  {
+    "id": "1.1.15",
+    "chapterId": "1",
+    "question": "∫sinh(x) dx = ?",
+    "options": [
+      "cosh(x) + C",
+      "tanh(x) + C",
+      "sinh(x) + C",
+      "ln |cosh(x)| + C"
+    ],
+    "correctAnswer": 0,
+    "feedback": "d/dx(cosh x) = sinh x."
+  },
+  {
+    "id": "1.1.16",
+    "chapterId": "1",
+    "question": "∫cosh(x) dx = ?",
+    "options": [
+      "cosh(x) + C",
+      "sinh(x) + C",
+      "ln |sinh(x)| + C",
+      "tan(x) + C"
+    ],
+    "correctAnswer": 1,
+    "feedback": "d/dx(sinh x) = cosh x."
+  },
+  {
+    "id": "1.1.17",
+    "chapterId": "1",
+    "question": "Evaluate ∫1/√(1 - x²) dx.",
+    "options": [
+      "tan⁻¹(x) + C",
+      "sin⁻¹(x) + C",
+      "cos⁻¹(x) + C",
+      "sec⁻¹(x) + C"
+    ],
+    "correctAnswer": 1,
+    "feedback": "Standard formula ∫1/√(1 - x²) dx = sin⁻¹(x) + C."
+  },
+  {
+    "id": "1.1.18",
+    "chapterId": "1",
+    "question": "What is ∫1/(a² + x²) dx?",
+    "options": [
+      "tan⁻¹(x/a) + C",
+      "sin⁻¹(x/a) + C",
+      "ln |x| + C",
+      "cos⁻¹(x/a) + C"
+    ],
+    "correctAnswer": 0,
+    "feedback": "∫1/(a² + x²) dx = 1/a tan⁻¹(x/a) + C."
+  },
+  {
+    "id": "1.1.19",
+    "chapterId": "1",
+    "question": "Evaluate ∫1/(x√(x² - a²)) dx.",
+    "options": [
+      "1/a sec⁻¹|x/a| + C",
+      "sin⁻¹(x/a) + C",
+      "tan⁻¹(x/a) + C",
+      "ln |x| + C"
+    ],
+    "correctAnswer": 0,
+    "feedback": "Standard inverse formula: ∫1/(x√(x² - a²)) dx = 1/a sec⁻¹|x/a| + C."
+  },
+  {
+    "id": "1.1.20",
+    "chapterId": "1",
+    "question": "Find ∫1/√(x² + a²) dx.",
+    "options": [
+      "tan⁻¹(x/a) + C",
+      "sinh⁻¹(x/a) + C",
+      "cosh⁻¹(x/a) + C",
+      "ln |x| + C"
+    ],
+    "correctAnswer": 1,
+    "feedback": "∫1/√(x² + a²) dx = sinh⁻¹(x/a) + C."
+  },
+  {
+    "id": "2.1.1",
+    "chapterId": "2",
+    "question": "Find ∫4x(2x² + 3)² dx.",
+    "options": [
+      "(2x² + 3)³/3 + C",
+      "(2x² + 3)³/6 + C",
+      "(2x² + 3)² + C",
+      "2(2x² + 3)³ + C"
+    ],
+    "correctAnswer": 1,
+    "feedback": "Let u = 2x² + 3 ⇒ du = 4x dx. Then ∫4x(2x² + 3)² dx = ∫u² du = u³/3 + C = (2x² + 3)³/3 + C. Since du = 4x dx, multiply by 1/2 adjustment: (2x² + 3)³/6 + C."
+  },
+  {
+    "id": "2.1.2",
+    "chapterId": "2",
+    "question": "Evaluate ∫x/(x² + 4) dx.",
+    "options": [
+      "ln |x² + 4| + C",
+      "1/2 ln |x² + 4| + C",
+      "tan⁻¹(x² + 4) + C",
+      "x²/(x² + 4) + C"
+    ],
+    "correctAnswer": 1,
+    "feedback": "Let u = x² + 4 ⇒ du = 2x dx. ∫x/(x² + 4) dx = 1/2 ∫du/u = 1/2 ln |u| + C = 1/2 ln |x² + 4| + C."
+  },
+  {
+    "id": "2.1.3",
+    "chapterId": "2",
+    "question": "Evaluate ∫sin(7x) dx.",
+    "options": [
+      "1/7 sin(7x) + C",
+      "-1/7 cos(7x) + C",
+      "cos(7x) + C",
+      "-7 cos(7x) + C"
+    ],
+    "correctAnswer": 1,
+    "feedback": "Let u = 7x ⇒ du = 7 dx. ∫sin(7x) dx = 1/7 ∫sin(u) du = -1/7 cos(u) + C = -1/7 cos(7x) + C."
+  },
+  {
+    "id": "2.1.4",
+    "chapterId": "2",
+    "question": "Evaluate ∫e⁵ˣ dx.",
+    "options": [
+      "5e⁵ˣ + C",
+      "1/5 e⁵ˣ + C",
+      "e⁵ˣ + C",
+      "eˣ⁵ + C"
+    ],
+    "correctAnswer": 1,
+    "feedback": "Let u = 5x ⇒ du = 5 dx. ∫e⁵ˣ dx = 1/5 ∫eᵘ du = 1/5 e⁵ˣ + C."
+  },
+  {
+    "id": "2.1.5",
+    "chapterId": "2",
+    "question": "Evaluate ∫2x/(x² + 1)² dx.",
+    "options": [
+      "-1/(x² + 1) + C",
+      "1/(x² + 1) + C",
+      "x/(x² + 1) + C",
+      "ln |x² + 1| + C"
+    ],
+    "correctAnswer": 0,
+    "feedback": "Let u = x² + 1 ⇒ du = 2x dx. ∫u⁻² du = u⁻¹/(-1) + C = -1/u + C = -1/(x² + 1) + C."
+  },
+  {
+    "id": "2.1.6",
+    "chapterId": "2",
+    "question": "Evaluate ∫(3x² + 2x)e^(x³ + x²) dx.",
+    "options": [
+      "e^(x³ + x²) + C",
+      "1/3 e^(x³ + x²) + C",
+      "1/5 e^(x³ + x²) + C",
+      "3e^(x³ + x²) + C"
+    ],
+    "correctAnswer": 0,
+    "feedback": "Let u = x³ + x² ⇒ du = (3x² + 2x) dx. ∫eᵘ du = eᵘ + C = e^(x³ + x²) + C."
+  },
+  {
+    "id": "2.1.7",
+    "chapterId": "2",
+    "question": "Evaluate ∫cos(4x) dx.",
+    "options": [
+      "1/4 cos(4x) + C",
+      "1/4 sin(4x) + C",
+      "-1/4 sin(4x) + C",
+      "4 cos(4x) + C"
+    ],
+    "correctAnswer": 1,
+    "feedback": "Let u = 4x ⇒ du = 4 dx. ∫cos(4x) dx = 1/4 ∫cos(u) du = 1/4 sin(u) + C = 1/4 sin(4x) + C."
+  },
+  {
+    "id": "2.1.8",
+    "chapterId": "2",
+    "question": "Evaluate ∫1/(x ln x) dx.",
+    "options": [
+      "ln |ln x| + C",
+      "1/2 ln |ln x| + C",
+      "ln x + C",
+      "1/x + C"
+    ],
+    "correctAnswer": 0,
+    "feedback": "Let u = ln x ⇒ du = 1/x dx. ∫1/(x ln x) dx = ∫du/u = ln |u| + C = ln |ln x| + C."
+  },
+  {
+    "id": "2.1.9",
+    "chapterId": "2",
+    "question": "Evaluate ∫x³(x⁴ + 5)² dx.",
+    "options": [
+      "(x⁴ + 5)³/12 + C",
+      "(x⁴ + 5)³/8 + C",
+      "(x⁴ + 5)³/3 + C",
+      "(x⁴ + 5)² + C"
+    ],
+    "correctAnswer": 0,
+    "feedback": "Let u = x⁴ + 5 ⇒ du = 4x³ dx. ∫x³(x⁴ + 5)² dx = 1/4 ∫u² du = 1/4 · u³/3 = (x⁴ + 5)³/12 + C."
+  },
+  {
+    "id": "2.1.10",
+    "chapterId": "2",
+    "question": "Evaluate ∫tan(x) dx.",
+    "options": [
+      "ln |sec x| + C",
+      "-ln |cos x| + C",
+      "Both A and B",
+      "None"
+    ],
+    "correctAnswer": 2,
+    "feedback": "∫tan(x) dx = ∫sin x/cos x dx. Let u = cos x ⇒ du = -sin x dx. -∫du/u = -ln |u| + C = ln |sec x| + C."
+  },
+  {
+    "id": "2.1.11",
+    "chapterId": "2",
+    "question": "Evaluate ∫x√(x² + 1) dx.",
+    "options": [
+      "1/3 (x² + 1)³/² + C",
+      "1/2 (x² + 1)¹/² + C",
+      "(x² + 1)³/² + C",
+      "1/2 (x² + 1)³/² + C"
+    ],
+    "correctAnswer": 0,
+    "feedback": "Let u = x² + 1 ⇒ du = 2x dx. ∫x√(x² + 1) dx = 1/2 ∫u¹/² du = 1/2 · 2/3 u³/² + C = 1/3 (x² + 1)³/² + C."
+  },
+  {
+    "id": "2.1.12",
+    "chapterId": "2",
+    "question": "Evaluate ∫dx/√(4 - x²).",
+    "options": [
+      "sin⁻¹(x/2) + C",
+      "cos⁻¹(x/2) + C",
+      "tan⁻¹(x/2) + C",
+      "x/√(4 - x²) + C"
+    ],
+    "correctAnswer": 0,
+    "feedback": "Standard form: ∫dx/√(a² - x²) = sin⁻¹(x/a) + C. So a = 2 ⇒ sin⁻¹(x/2) + C."
+  },
+  {
+    "id": "2.1.13",
+    "chapterId": "2",
+    "question": "Evaluate ∫1/(1 + 9x²) dx.",
+    "options": [
+      "tan⁻¹(3x) + C",
+      "1/3 tan⁻¹(3x) + C",
+      "3 tan⁻¹(3x) + C",
+      "tan⁻¹(π/3) + C"
+    ],
+    "correctAnswer": 1,
+    "feedback": "Let u = 3x ⇒ du = 3 dx. ∫1/(1 + 9x²) dx = 1/3 ∫1/(1 + u²) du = 1/3 tan⁻¹(u) + C = 1/3 tan⁻¹(3x) + C."
+  },
+  {
+    "id": "2.1.14",
+    "chapterId": "2",
+    "question": "Evaluate ∫xe^(x²) dx.",
+    "options": [
+      "1/2 e^(x²) + C",
+      "e^(x²) + C",
+      "2e^(x²) + C",
+      "1/3 e^(x²) + C"
+    ],
+    "correctAnswer": 0,
+    "feedback": "Let u = x² ⇒ du = 2x dx. ∫xe^(x²) dx = 1/2 ∫eᵘ du = 1/2 e^(x²) + C."
+  },
+  {
+    "id": "2.1.15",
+    "chapterId": "2",
+    "question": "Evaluate ∫dx/(x√(ln x)).",
+    "options": [
+      "2√(ln x) + C",
+      "√(ln x) + C",
+      "1/2 √(ln x) + C",
+      "ln |ln x| + C"
+    ],
+    "correctAnswer": 0,
+    "feedback": "Let u = ln x ⇒ du = 1/x dx. ∫1/(x√(ln x)) dx = ∫u⁻¹/² du = 2u¹/² + C = 2√(ln x) + C."
+  },
+  {
+    "id": "2.1.16",
+    "chapterId": "2",
+    "question": "Evaluate ∫cos²(3x) sin(3x) dx.",
+    "options": [
+      "-1/9 cos³(3x) + C",
+      "1/3 sin³(3x) + C",
+      "1/9 cos³(3x) + C",
+      "-1/3 cos³(3x) + C"
+    ],
+    "correctAnswer": 0,
+    "feedback": "Let u = cos(3x) ⇒ du = -3 sin(3x) dx. ∫cos²(3x) sin(3x) dx = -1/3 ∫u² du = -1/9 u³ + C = -1/9 cos³(3x) + C."
+  },
+  {
+    "id": "2.1.17",
+    "chapterId": "2",
+    "question": "Evaluate ∫x²/(x³ + 1)² dx.",
+    "options": [
+      "-1/(3(x³ + 1)) + C",
+      "1/(3(x³ + 1)) + C",
+      "1/(x³ + 1) + C",
+      "1/(9(x³ + 1)) + C"
+    ],
+    "correctAnswer": 0,
+    "feedback": "Let u = x³ + 1 ⇒ du = 3x² dx. ∫x²/(x³ + 1)² dx = 1/3 ∫u⁻² du = 1/3 (-1/u) + C = -1/(3(x³ + 1)) + C."
+  },
+  {
+    "id": "2.1.18",
+    "chapterId": "2",
+    "question": "Evaluate ∫cos x/(1 + sin x) dx.",
+    "options": [
+      "ln |1 + sin x| + C",
+      "tan x + C",
+      "sin x + C",
+      "1/(1 + sin x) + C"
+    ],
+    "correctAnswer": 0,
+    "feedback": "Let u = 1 + sin x ⇒ du = cos x dx. ∫cos x/(1 + sin x) dx = ∫du/u = ln |u| + C = ln |1 + sin x| + C."
+  },
+  {
+    "id": "2.1.19",
+    "chapterId": "2",
+    "question": "Evaluate ∫1/(x²√(x² - 1)) dx.",
+    "options": [
+      "sec⁻¹ x + C",
+      "tan⁻¹ x + C",
+      "√(x² - 1)/x + C",
+      "cos⁻¹ x + C"
+    ],
+    "correctAnswer": 2,
+    "feedback": "Let u = √(x² - 1) ⇒ du = x/√(x² - 1) dx. Through manipulation or known result: ∫1/(x²√(x² - 1)) dx = -√(x² - 1)/x + C."
+  },
+  {
+    "id": "2.1.20",
+    "chapterId": "2",
+    "question": "Evaluate ∫2x/(x² + 9) dx.",
+    "options": [
+      "ln |x² + 9| + C",
+      "1/2 ln |x² + 9| + C",
+      "tan⁻¹(x/3) + C",
+      "2/3 tan⁻¹(x/3) + C"
+    ],
+    "correctAnswer": 0,
+    "feedback": "Let u = x² + 9 ⇒ du = 2x dx. ∫2x/(x² + 9) dx = ∫du/u = ln |u| + C = ln |x² + 9| + C."
+  },
+  {
+      "id": "3.1.1",
+      "chapterId": "3",
+      "question": "Evaluate ∫sin(x) dx",
+      "options": [
+        "cos(x) + C",
+        "-cos(x) + C",
+        "sec(x) + C",
+        "-sec(x) + C"
+      ],
+      "correctAnswer": 1,
+      "feedback": "The integral of sin(x) is the negative of its cosine, plus a constant of integration."
+    },
+    {
+      "id": "3.1.2",
+      "chapterId": "3",
+      "question": "Evaluate ∫cos(x) dx",
+      "options": [
+        "sin(x) + C",
+        "-sin(x) + C",
+        "csc(x) + C",
+        "-csc(x) + C"
+      ],
+      "correctAnswer": 0,
+      "feedback": "The integral of cos(x) is sin(x), plus a constant of integration."
+    },
+    {
+      "id": "3.1.3",
+      "chapterId": "3",
+      "question": "Evaluate ∫sec²(x) dx",
+      "options": [
+        "tan(x) + C",
+        "-tan(x) + C",
+        "cot(x) + C",
+        "-cot(x) + C"
+      ],
+      "correctAnswer": 0,
+      "feedback": "The integral of sec²(x) is tan(x), plus a constant of integration."
+    },
+    {
+      "id": "3.1.4",
+      "chapterId": "3",
+      "question": "Evaluate ∫csc²(x) dx",
+      "options": [
+        "cot(x) + C",
+        "-cot(x) + C",
+        "tan(x) + C",
+        "-tan(x) + C"
+      ],
+      "correctAnswer": 1,
+      "feedback": "The integral of csc²(x) is the negative of cot(x), plus a constant of integration."
+    },
+    {
+      "id": "3.1.5",
+      "chapterId": "3",
+      "question": "Evaluate ∫sec(x)tan(x) dx",
+      "options": [
+        "sec(x) + C",
+        "-sec(x) + C",
+        "csc(x) + C",
+        "-csc(x) + C"
+      ],
+      "correctAnswer": 0,
+      "feedback": "The integral of sec(x)tan(x) is sec(x), plus a constant of integration."
+    },
+    {
+      "id": "3.1.6",
+      "chapterId": "3",
+      "question": "Evaluate ∫csc(x)cot(x) dx",
+      "options": [
+        "csc(x) + C",
+        "-csc(x) + C",
+        "sec(x) + C",
+        "-sec(x) + C"
+      ],
+      "correctAnswer": 1,
+      "feedback": "The integral of csc(x)cot(x) is the negative of csc(x), plus a constant of integration."
+    },
+    {
+      "id": "3.1.7",
+      "chapterId": "3",
+      "question": "Evaluate ∫tan(x) dx",
+      "options": [
+        "ln|sec(x)| + C",
+        "-ln|sec(x)| + C",
+        "ln|csc(x)| + C",
+        "-ln|csc(x)| + C"
+      ],
+      "correctAnswer": 0,
+      "feedback": "The integral of tan(x) is the natural logarithm of the absolute value of sec(x), plus a constant."
+    },
+    {
+      "id": "3.1.8",
+      "chapterId": "3",
+      "question": "Evaluate ∫cot(x) dx",
+      "options": [
+        "ln|sin(x)| + C",
+        "-ln|sin(x)| + C",
+        "ln|cos(x)| + C",
+        "-ln|cos(x)| + C"
+      ],
+      "correctAnswer": 0,
+      "feedback": "The integral of cot(x) is the natural logarithm of the absolute value of sin(x), plus a constant."
+    },
+    {
+      "id": "3.1.9",
+      "chapterId": "3",
+      "question": "Evaluate ∫sin²(x) dx",
+      "options": [
+        "(x/2) - (sin(2x)/4) + C",
+        "(x/2) + (sin(2x)/4) + C",
+        "x - (sin(2x)/2) + C",
+        "x + (sin(2x)/2) + C"
+      ],
+      "correctAnswer": 0,
+      "feedback": "Using the identity sin²(x) = (1 - cos(2x))/2, the integral can be solved."
+    },
+    {
+      "id": "3.1.10",
+      "chapterId": "3",
+      "question": "Evaluate ∫cos²(x) dx",
+      "options": [
+        "(x/2) + (sin(2x)/4) + C",
+        "(x/2) - (sin(2x)/4) + C",
+        "x + (sin(2x)/2) + C",
+        "x - (sin(2x)/2) + C"
+      ],
+      "correctAnswer": 0,
+      "feedback": "Using the identity cos²(x) = (1 + cos(2x))/2, the integral can be solved."
+    },
+    {
+      "id": "3.1.11",
+      "chapterId": "3",
+      "question": "Evaluate ∫sin³(x) dx",
+      "options": [
+        "-(cos(x)/3)(sin²(x) + 2) + C",
+        "(cos(x)/3)(sin²(x) + 2) + C",
+        "-(sin(x)/3)(cos²(x) + 2) + C",
+        "(sin(x)/3)(cos²(x) + 2) + C"
+      ],
+      "correctAnswer": 0,
+      "feedback": "Rewrite sin³(x) as sin(x)(1 - cos²(x)) and solve."
+    },
+    {
+      "id": "3.1.12",
+      "chapterId": "3",
+      "question": "Evaluate ∫cos³(x) dx",
+      "options": [
+        "(sin(x)/3)(cos²(x) + 2) + C",
+        "-(sin(x)/3)(cos²(x) + 2) + C",
+        "(cos(x)/3)(sin²(x) + 2) + C",
+        "-(cos(x)/3)(sin²(x) + 2) + C"
+      ],
+      "correctAnswer": 0,
+      "feedback": "Rewrite cos³(x) as cos(x)(1 - sin²(x)) and solve."
+    },
+    {
+      "id": "3.1.13",
+      "chapterId": "3",
+      "question": "Evaluate ∫sec(x) dx",
+      "options": [
+        "ln|sec(x) + tan(x)| + C",
+        "-ln|sec(x) + tan(x)| + C",
+        "ln|sec(x) - tan(x)| + C",
+        "-ln|sec(x) - tan(x)| + C"
+      ],
+      "correctAnswer": 0,
+      "feedback": "Multiply and divide by (sec(x) + tan(x)) to solve the integral."
+    },
+    {
+      "id": "3.1.14",
+      "chapterId": "3",
+      "question": "Evaluate ∫csc(x) dx",
+      "options": [
+        "ln|csc(x) - cot(x)| + C",
+        "-ln|csc(x) - cot(x)| + C",
+        "ln|csc(x) + cot(x)| + C",
+        "-ln|csc(x) + cot(x)| + C"
+      ],
+      "correctAnswer": 0,
+      "feedback": "Multiply and divide by (csc(x) - cot(x)) to solve the integral."
+    },
+    {
+      "id": "3.1.15",
+      "chapterId": "3",
+      "question": "Evaluate ∫tan²(x) dx",
+      "options": [
+        "tan(x) - x + C",
+        "tan(x) + x + C",
+        "cot(x) - x + C",
+        "cot(x) + x + C"
+      ],
+      "correctAnswer": 0,
+      "feedback": "Use the identity tan²(x) = sec²(x) - 1 to solve the integral."
+    },
+    {
+      "id": "3.1.16",
+      "chapterId": "3",
+      "question": "Evaluate ∫cot²(x) dx",
+      "options": [
+        "-cot(x) - x + C",
+        "-cot(x) + x + C",
+        "tan(x) - x + C",
+        "tan(x) + x + C"
+      ],
+      "correctAnswer": 0,
+      "feedback": "Use the identity cot²(x) = csc²(x) - 1 to solve the integral."
+    },
+    {
+      "id": "3.1.17",
+      "chapterId": "3",
+      "question": "Evaluate ∫x sin(x) dx",
+      "options": [
+        "-x cos(x) + sin(x) + C",
+        "x cos(x) - sin(x) + C",
+        "x sin(x) + cos(x) + C",
+        "-x sin(x) - cos(x) + C"
+      ],
+      "correctAnswer": 0,
+      "feedback": "Use integration by parts. Let u = x, dv = sin(x) dx. Then du = dx, v = -cos(x)."
+    },
+    {
+      "id": "3.1.18",
+      "chapterId": "3",
+      "question": "Evaluate ∫x cos(x) dx",
+      "options": [
+        "x sin(x) + cos(x) + C",
+        "-x sin(x) - cos(x) + C",
+        "x cos(x) - sin(x) + C",
+        "-x cos(x) + sin(x) + C"
+      ],
+      "correctAnswer": 0,
+      "feedback": "Use integration by parts. Let u = x, dv = cos(x) dx. Then du = dx, v = sin(x)."
+    },
+    {
+      "id": "3.1.19",
+      "chapterId": "3",
+      "question": "Evaluate ∫e^x sin(x) dx",
+      "options": [
+        "(e^x (sin(x) - cos(x)))/2 + C",
+        "(e^x (sin(x) + cos(x)))/2 + C",
+        "(e^x (cos(x) - sin(x)))/2 + C",
+        "-(e^x (sin(x) + cos(x)))/2 + C"
+      ],
+      "correctAnswer": 0,
+      "feedback": "Use integration by parts twice."
+    },
+    {
+      "id": "3.1.20",
+      "chapterId": "3",
+      "question": "Evaluate ∫sin(ln(x)) dx",
+      "options": [
+        "(x/2)(sin(ln(x)) - cos(ln(x))) + C",
+        "(x/2)(sin(ln(x)) + cos(ln(x))) + C",
+        "x(sin(ln(x)) - cos(ln(x))) + C",
+        "x(sin(ln(x)) + cos(ln(x))) + C"
+      ],
+      "correctAnswer": 0,
+      "feedback": "Use integration by parts twice."
+    },
+    {
+      "id": "4.1.1",
+      "chapterId": "4",
+      "question": "Evaluate ∫x² e^x dx",
+      "options": [
+        "(x² + 2)e^x + C",
+        "(x² + 2x + 2)e^x + C",
+        "(x² - 2x + 2)e^x + C",
+        "(x² - 2x - 2)e^x + C"
+      ],
+      "correctAnswer": 2,
+      "feedback": "Use integration by parts: Let u = x², so du = 2x dx. Let dv = e^x dx, so v = e^x."
+    },
+    {
+      "id": "4.1.2",
+      "chapterId": "4",
+      "question": "Evaluate ∫x ln(x) dx",
+      "options": [
+        "(x²/2) ln(x) - (x²/4) + C",
+        "(x²/2) ln(x) + (x²/4) + C",
+        "(x²/2)(ln(x) - 1) + C",
+        "(x²/2) ln(x) - x + C"
+      ],
+      "correctAnswer": 0,
+      "feedback": "Let u = ln(x), du = (1/x) dx. Let dv = x dx, v = x²/2."
+    },
+    {
+      "id": "4.1.3",
+      "chapterId": "4",
+      "question": "Evaluate ∫x sin(x) dx",
+      "options": [
+        "-x cos(x) + sin(x) + C",
+        "x cos(x) - sin(x) + C",
+        "x sin(x) - cos(x) + C",
+        "-x sin(x) + cos(x) + C"
+      ],
+      "correctAnswer": 0,
+      "feedback": "Let u = x, so du = dx. Let dv = sin(x) dx, so v = -cos(x)."
+    },
+    {
+      "id": "4.1.4",
+      "chapterId": "4",
+      "question": "Evaluate ∫ln(x) dx",
+      "options": [
+        "x ln(x) + C",
+        "x ln(x) - x + C",
+        "ln(x) - x + C",
+        "x(ln(x) - 1) + C"
+      ],
+      "correctAnswer": 3,
+      "feedback": "Treat ln(x) · 1. Use integration by parts. Let u = ln(x), du = (1/x) dx. Let dv = dx, v = x."
+    },
+    {
+      "id": "4.1.5",
+      "chapterId": "4",
+      "question": "Evaluate ∫x e^(2x) dx",
+      "options": [
+        "(e^(2x)/4)(2x + 1) + C",
+        "(e^(2x)/4)(2x - 1) + C",
+        "(e^(2x)/2)(x - 1) + C",
+        "(e^(2x)/2)(2x - 1) + C"
+      ],
+      "correctAnswer": 1,
+      "feedback": "Let u = x, du = dx. Let dv = e^(2x) dx, v = e^(2x)/2."
+    },
+    {
+      "id": "4.1.6",
+      "chapterId": "4",
+      "question": "Evaluate ∫x³ e^x dx",
+      "options": [
+        "(x³ + 3x² + 6x + 6)e^x + C",
+        "(x³ - 3x² + 6x - 6)e^x + C",
+        "(x³ - 3x² + 6x + 6)e^x + C",
+        "(x³ + 3x² - 6x + 6)e^x + C"
+      ],
+      "correctAnswer": 1,
+      "feedback": "Apply integration by parts multiple times to reduce the power of x."
+    },
+    {
+      "id": "4.1.7",
+      "chapterId": "4",
+      "question": "Evaluate ∫x² ln(x) dx",
+      "options": [
+        "(x³/3) ln(x) - (x³/9) + C",
+        "(x³/3) ln(x) + (x³/9) + C",
+        "(x³/2) ln(x) - (x³/4) + C",
+        "(x³/4) ln(x) - (x³/12) + C"
+      ],
+      "correctAnswer": 0,
+      "feedback": "Let u = ln(x), du = (1/x) dx. Let dv = x² dx, v = x³/3."
+    },
+    {
+      "id": "4.1.8",
+      "chapterId": "4",
+      "question": "Evaluate ∫x e^(2x) dx",
+      "options": [
+        "(e^(2x)/4)(2x + 1) + C",
+        "(e^(2x)/4)(2x - 1) + C",
+        "(e^(2x)/2)(x - 1) + C",
+        "(e^(2x)/2)(2x - 1) + C"
+      ],
+      "correctAnswer": 1,
+      "feedback": "Let u = x, du = dx. Let dv = e^(2x) dx, v = e^(2x)/2."
+    },
+    {
+      "id": "4.1.9",
+      "chapterId": "4",
+      "question": "Evaluate ∫arctan(x) dx",
+      "options": [
+        "x arctan(x) + (1/2) ln(1 + x²) + C",
+        "x arctan(x) - (1/2) ln(1 + x²) + C",
+        "x arctan(x) - ln(1 + x²) + C",
+        "(x²/2) arctan(x) - (1/2) ln(1 + x²) + C"
+      ],
+      "correctAnswer": 1,
+      "feedback": "Let u = arctan(x), du = (1/(1 + x²)) dx. Let dv = dx, v = x."
+    },
+    {
+      "id": "4.1.10",
+      "chapterId": "4",
+      "question": "Evaluate ∫x² cos(x) dx",
+      "options": [
+        "x² sin(x) + 2x cos(x) - 2 sin(x) + C",
+        "x² sin(x) - 2x cos(x) + 2 sin(x) + C",
+        "-x² sin(x) + 2x cos(x) + 2 sin(x) + C",
+        "x² sin(x) + 2x cos(x) + 2 sin(x) + C"
+      ],
+      "correctAnswer": 0,
+      "feedback": "Apply integration by parts twice, first with u = x², then with u = x."
+    },
+    {
+      "id": "4.1.11",
+      "chapterId": "4",
+      "question": "Evaluate ∫x³ e^x dx",
+      "options": [
+        "(x³ + 3x² + 6x + 6)e^x + C",
+        "(x³ - 3x² + 6x - 6)e^x + C",
+        "(x³ - 3x² + 6x + 6)e^x + C",
+        "(x³ + 3x² - 6x + 6)e^x + C"
+      ],
+      "correctAnswer": 1,
+      "feedback": "Apply integration by parts multiple times to reduce the power of x."
+    },
+    {
+      "id": "4.1.12",
+      "chapterId": "4",
+      "question": "Evaluate ∫x² ln(x) dx",
+      "options": [
+        "(x³/3) ln(x) - (x³/9) + C",
+        "(x³/3) ln(x) + (x³/9) + C",
+        "(x³/2) ln(x) - (x³/4) + C",
+        "(x³/4) ln(x) - (x³/12) + C"
+      ],
+      "correctAnswer": 0,
+      "feedback": "Let u = ln(x), du = (1/x) dx. Let dv = x² dx, v = x³/3."
+    },
+    {
+      "id": "4.1.13",
+      "chapterId": "4",
+      "question": "Evaluate ∫x e^(2x) dx",
+      "options": [
+        "(e^(2x)/4)(2x + 1) + C",
+        "(e^(2x)/4)(2x - 1) + C",
+        "(e^(2x)/2)(x - 1) + C",
+        "(e^(2x)/2)(2x - 1) + C"
+      ],
+      "correctAnswer": 1,
+      "feedback": "Let u = x, du = dx. Let dv = e^(2x) dx, v = e^(2x)/2."
+    },
+    {
+      "id": "4.1.14",
+      "chapterId": "4",
+      "question": "Evaluate ∫arctan(x) dx",
+      "options": [
+        "x arctan(x) + (1/2) ln(1 + x²) + C",
+        "x arctan(x) - (1/2) ln(1 + x²) + C",
+        "x arctan(x) - ln(1 + x²) + C",
+        "(x²/2) arctan(x) - (1/2) ln(1 + x²) + C"
+      ],
+      "correctAnswer": 1,
+      "feedback": "Let u = arctan(x), du = (1/(1 + x²)) dx. Let dv = dx, v = x."
+    },
+    {
+      "id": "4.1.15",
+      "chapterId": "4",
+      "question": "Evaluate ∫x² cos(x) dx",
+      "options": [
+        "x² sin(x) + 2x cos(x) - 2 sin(x) + C",
+        "x² sin(x) - 2x cos(x) + 2 sin(x) + C",
+        "-x² sin(x) + 2x cos(x) + 2 sin(x) + C",
+        "x² sin(x) + 2x cos(x) + 2 sin(x) + C"
+      ],
+      "correctAnswer": 0,
+      "feedback": "Apply integration by parts twice, first with u = x², then with u = x."
+    },
+    {
+      "id": "4.1.16",
+      "chapterId": "4",
+      "question": "Evaluate ∫x³ e^x dx",
+      "options": [
+        "(x³ + 3x² + 6x + 6)e^x + C",
+        "(x³ - 3x² + 6x - 6)e^x + C",
+        "(x³ - 3x² + 6x + 6)e^x + C",
+        "(x³ + 3x² - 6x + 6)e^x + C"
+      ],
+      "correctAnswer": 1,
+      "feedback": "Apply integration by parts multiple times to reduce the power of x."
+    },
+    {
+      "id": "4.1.17",
+      "chapterId": "4",
+      "question": "Evaluate ∫x² ln(x) dx",
+      "options": [
+        "(x³/3) ln(x) - (x³/9) + C",
+        "(x³/3) ln(x) + (x³/9) + C",
+        "(x³/2) ln(x) - (x³/4) + C",
+        "(x³/4) ln(x) - (x³/12) + C"
+      ],
+      "correctAnswer": 0,
+      "feedback": "Let u = ln(x), du = (1/x) dx. Let dv = x² dx, v = x³/3."
+    },
+    {
+      "id": "4.1.18",
+      "chapterId": "4",
+      "question": "Evaluate ∫x e^(2x) dx",
+      "options": [
+        "(e^(2x)/4)(2x + 1) + C",
+        "(e^(2x)/4)(2x - 1) + C",
+        "(e^(2x)/2)(x - 1) + C",
+        "(e^(2x)/2)(2x - 1) + C"
+      ],
+      "correctAnswer": 1,
+      "feedback": "Let u = x, du = dx. Let dv = e^(2x) dx, v = e^(2x)/2."
+    },
+    {
+      "id": "4.1.19",
+      "chapterId": "4",
+      "question": "Evaluate ∫arctan(x) dx",
+      "options": [
+        "x arctan(x) + (1/2) ln(1 + x²) + C",
+        "x arctan(x) - (1/2) ln(1 + x²) + C",
+        "x arctan(x) - ln(1 + x²) + C",
+        "(x²/2) arctan(x) - (1/2) ln(1 + x²) + C"
+      ],
+      "correctAnswer": 1,
+      "feedback": "Let u = arctan(x), du = (1/(1 + x²)) dx. Let dv = dx, v = x."
+    },
+    {
+      "id": "4.1.20",
+      "chapterId": "4",
+      "question": "Evaluate ∫x² cos(x) dx",
+      "options": [
+        "x² sin(x) + 2x cos(x) - 2 sin(x) + C",
+        "x² sin(x) - 2x cos(x) + 2 sin(x) + C",
+        "-x² sin(x) + 2x cos(x) + 2 sin(x) + C",
+        "x² sin(x) + 2x cos(x) + 2 sin(x) + C"
+      ],
+      "correctAnswer": 0,
+      "feedback": "Apply integration by parts twice, first with u = x², then with u = x."
+    },
+    {
+      "id": "5.1.1",
+      "chapterId": "5",
+      "question": "Evaluate ∫dx/√(9 - x²)",
+      "options": [
+        "arctan(x/3) + C",
+        "arcsin(x/3) + C",
+        "ln|x + √(9 - x²)| + C",
+        "arccos(x/3) + C"
+      ],
+      "correctAnswer": 1,
+      "feedback": "Let x = 3 sin θ. Then dx = 3 cos θ dθ and √(9 - x²) = 3 cos θ."
+    },
+    {
+      "id": "5.1.2",
+      "chapterId": "5",
+      "question": "Evaluate ∫dx/(x² + 16)",
+      "options": [
+        "(1/4) arctan(x/4) + C",
+        "(1/16) arctan(x/4) + C",
+        "4 arctan(x/4) + C",
+        "arcsin(x/4) + C"
+      ],
+      "correctAnswer": 0,
+      "feedback": "Let x = 4 tan θ. Then dx = 4 sec² θ dθ and x² + 16 = 16 sec² θ."
+    },
+    {
+      "id": "5.1.3",
+      "chapterId": "5",
+      "question": "Evaluate ∫√(x² + 9) dx",
+      "options": [
+        "(x/2)√(x² + 9) + (9/2)ln|x + √(x² + 9)| + C",
+        "x√(x² + 9) - 9ln|x + √(x² + 9)| + C",
+        "(1/9)ln|x + √(x² + 9)| + C",
+        "arcsin(x/3) + C"
+      ],
+      "correctAnswer": 0,
+      "feedback": "Let x = 3 tan θ, dx = 3 sec² θ dθ. Then √(x² + 9) = 3 sec θ."
+    },
+    {
+      "id": "5.1.4",
+      "chapterId": "5",
+      "question": "Evaluate ∫dx/√(x² - 4)",
+      "options": [
+        "ln|x + √(x² - 4)| + C",
+        "arctan(x/2) + C",
+        "arcsin(x/2) + C",
+        "x/√(x² - 4) + C"
+      ],
+      "correctAnswer": 0,
+      "feedback": "Let x = 2 sec θ, dx = 2 sec θ tan θ dθ. Then √(x² - 4) = 2 tan θ."
+    },
+    {
+      "id": "5.1.5",
+      "chapterId": "5",
+      "question": "Evaluate ∫x²√(4 - x²) dx",
+      "options": [
+        "(x/8)(2x² - 8)√(4 - x²) + C",
+        "(1/8)[x(2x² - 8)√(4 - x²) + 8arcsin(x/2)] + C",
+        "x²arcsin(x/2) + C",
+        "(1/4)(x² - 2)√(4 - x²) + C"
+      ],
+      "correctAnswer": 1,
+      "feedback": "Let x = 2 sin θ, dx = 2 cos θ dθ, and √(4 - x²) = 2 cos θ."
+    },
+    {
+      "id": "5.1.6",
+      "chapterId": "5",
+      "question": "Evaluate ∫x²/√(x² + 4) dx",
+      "options": [
+        "(x/2)√(x² + 4) - 2ln|x + √(x² + 4)| + C",
+        "2√(x² + 4) + C",
+        "2tan⁻¹(x/2) + C",
+        "(x/2)√(x² + 4) + (4/2)ln|x + √(x² + 4)| + C"
+      ],
+      "correctAnswer": 0,
+      "feedback": "Use x = 2 tan θ. Then dx = 2 sec² θ dθ and √(x² + 4) = 2 sec θ."
+    },
+    {
+      "id": "5.1.7",
+      "chapterId": "5",
+      "question": "Evaluate ∫₀² x²/√(4 - x²) dx",
+      "options": [
+        "π",
+        "2",
+        "π/2",
+        "4"
+      ],
+      "correctAnswer": 0,
+      "feedback": "Let x = 2 sin θ. When x = 0, θ = 0; when x = 2, θ = π/2. Also dx = 2 cos θ dθ and √(4 - x²) = 2 cos θ."
+    },
+    {
+      "id": "5.1.8",
+      "chapterId": "5",
+      "question": "Evaluate ∫dx/(x²√(x² - 9))",
+      "options": [
+        "-√(x² - 9)/(9x) + C",
+        "-√(x² - 9)/(3x) + C",
+        "-√(x² - 9)/x + C",
+        "√(x² - 9)/(9x) + C"
+      ],
+      "correctAnswer": 0,
+      "feedback": "Let x = 3 sec θ. Then dx = 3 sec θ tan θ dθ and √(x² - 9) = 3 tan θ."
+    },
+    {
+      "id": "5.1.9",
+      "chapterId": "5",
+      "question": "Evaluate ∫√(1 + x²) dx",
+      "options": [
+        "(x/2)√(1 + x²) + (1/2)ln|x + √(1 + x²)| + C",
+        "(x/2)√(1 + x²) - (1/2)ln|x + √(1 + x²)| + C",
+        "x√(1 + x²) + C",
+        "ln|x + √(1 + x²)| + C"
+      ],
+      "correctAnswer": 0,
+      "feedback": "Let x = tan θ. Then dx = sec² θ dθ and √(1 + x²) = sec θ."
+    },
+    {
+      "id": "5.1.10",
+      "chapterId": "5",
+      "question": "Evaluate ∫dx/√(5x - x²)",
+      "options": [
+        "arcsin((x - 2.5)/2.5) + C",
+        "arcsin((x - 2.5)/2.5) + ln|x + √(5x - x²)| + C",
+        "ln|x + √(5x - x²)| + C",
+        "arctan((x - 2.5)/2.5) + C"
+      ],
+      "correctAnswer": 0,
+      "feedback": "Complete the square: 5x - x² = -(x² - 5x) = -(x - 2.5)² + 6.25 = 2.5² - (x - 2.5)²."
+    },
+    {
+      "id": "5.1.11",
+      "chapterId": "5",
+      "question": "Evaluate ∫dx/(1 + x²)^(3/2)",
+      "options": [
+        "x/√(1 + x²) + C",
+        "√(1 + x²)/x + C",
+        "ln|x + √(1 + x²)| + C",
+        "1/(1 + x²) + C"
+      ],
+      "correctAnswer": 0,
+      "feedback": "Use x = tan θ, dx = sec² θ dθ and 1 + x² = sec² θ."
+    },
+    {
+      "id": "5.1.12",
+      "chapterId": "5",
+      "question": "Evaluate ∫x/√(9 - x²) dx",
+      "options": [
+        "√(9 - x²) + C",
+        "-√(9 - x²) + C",
+        "arcsin(x/3) + C",
+        "ln|x + √(9 - x²)| + C"
+      ],
+      "correctAnswer": 1,
+      "feedback": "Use u-substitution: u = 9 - x², du = -2x dx."
+    },
+    {
+      "id": "5.1.13",
+      "chapterId": "5",
+      "question": "Evaluate ∫√(16 - x²)/x² dx",
+      "options": [
+        "√(16 - x²)/x + arcsin(x/4) + C",
+        "-√(16 - x²)/x - arcsin(x/4) + C",
+        "-√(16 - x²)/x + arcsin(x/4) + C",
+        "√(16 - x²)/x - arcsin(x/4) + C"
+      ],
+      "correctAnswer": 1,
+      "feedback": "Let x = 4 sin θ. Then dx = 4 cos θ dθ and √(16 - x²) = 4 cos θ."
+    },
+    {
+      "id": "5.1.14",
+      "chapterId": "5",
+      "question": "Evaluate ∫x³/√(x² + 1) dx",
+      "options": [
+        "(1/3)(x² + 1)^(3/2) + C",
+        "(1/3)(x² + 1)^(3/2) - √(x² + 1) + C",
+        "(1/2)x√(x² + 1) + C",
+        "√(x² + 1) + C"
+      ],
+      "correctAnswer": 1,
+      "feedback": "Set u = x² + 1. Then du = 2x dx so x dx = (1/2) du."
+    },
+    {
+      "id": "5.1.15",
+      "chapterId": "5",
+      "question": "Evaluate ∫₂³ dx/√(x² - 4)",
+      "options": [
+        "ln(3 + √5)",
+        "ln((3 + √5)/2)",
+        "arccosh(3/2)",
+        "ln(3) - ln(2)"
+      ],
+      "correctAnswer": 1,
+      "feedback": "Antiderivative: ∫dx/√(x² - a²) = ln|x + √(x² - a²)| + C. Here a = 2."
+    },
+    {
+      "id": "5.1.16",
+      "chapterId": "5",
+      "question": "Evaluate ∫x²/√(x² - 1) dx, x > 1",
+      "options": [
+        "(1/2)x√(x² - 1) + (1/2)ln|x + √(x² - 1)| + C",
+        "(1/2)x√(x² - 1) - (1/2)ln|x + √(x² - 1)| + C",
+        "x√(x² - 1) + C",
+        "ln|x + √(x² - 1)| + C"
+      ],
+      "correctAnswer": 0,
+      "feedback": "Use x = sec θ (for x > 1). Then dx = sec θ tan θ dθ and √(x² - 1) = tan θ."
+    },
+    {
+      "id": "5.1.17",
+      "chapterId": "5",
+      "question": "Evaluate ∫dx/(x²√(x² + 4))",
+      "options": [
+        "-√(x² + 4)/(4x) + C",
+        "√(x² + 4)/(4x) + C",
+        "-(1/4)ln|x + √(x² + 4)| + C",
+        "1/(x√(x² + 4)) + C"
+      ],
+      "correctAnswer": 0,
+      "feedback": "Let x = 2 tan θ. Then dx = 2 sec² θ dθ, x² = 4 tan² θ, and √(x² + 4) = 2 sec θ."
+    },
+    {
+      "id": "5.1.18",
+      "chapterId": "5",
+      "question": "Evaluate ∫√(x² - 9)/x dx, x > 3",
+      "options": [
+        "√(x² - 9) - 3arccos(3/x) + C",
+        "√(x² - 9) + 3arccos(3/x) + C",
+        "√(x² - 9) - 3arcsin(3/x) + C",
+        "-√(x² - 9) + 3arccos(3/x) + C"
+      ],
+      "correctAnswer": 0,
+      "feedback": "Use x = 3 sec θ (so x > 3). Then √(x² - 9) = 3 tan θ and dx = 3 sec θ tan θ dθ."
+    },
+    {
+      "id": "5.1.19",
+      "chapterId": "5",
+      "question": "Evaluate ∫x/(x² + 4)^(3/2) dx",
+      "options": [
+        "-1/√(x² + 4) + C",
+        "1/√(x² + 4) + C",
+        "ln|x + √(x² + 4)| + C",
+        "x/√(x² + 4) + C"
+      ],
+      "correctAnswer": 0,
+      "feedback": "Let u = x² + 4. Then du = 2x dx so x dx = (1/2) du."
+    },
+    {
+      "id": "5.1.20",
+      "chapterId": "5",
+      "question": "Evaluate ∫√(1 + x²) dx",
+      "options": [
+        "(x/2)√(1 + x²) + (1/2)ln|x + √(1 + x²)| + C",
+        "(x/2)√(1 + x²) - (1/2)ln|x + √(1 + x²)| + C",
+        "x√(1 + x²) + C",
+        "ln|x + √(1 + x²)| + C"
+      ],
+      "correctAnswer": 0,
+      "feedback": "Let x = tan θ. Then dx = sec² θ dθ and √(1 + x²) = sec θ."
+    },
+    {
+      "id": "6.1.1",
+      "chapterId": "6",
+      "question": "Evaluate ∫1/(x² - 1) dx",
+      "options": [
+        "ln|x - 1| + C",
+        "(1/2)ln|(x-1)/(x+1)| + C",
+        "ln|x² - 1| + C",
+        "arctan(x) + C"
+      ],
+      "correctAnswer": 1,
+      "feedback": "Formula: ∫dx/(x² - a²) = (1/(2a))ln|(x - a)/(x + a)| + C"
+    },
+    {
+      "id": "6.1.2",
+      "chapterId": "6",
+      "question": "Evaluate ∫2x/(x² - 9) dx",
+      "options": [
+        "ln|x² - 9| + C",
+        "(1/2)ln|x² - 9| + C",
+        "arctan(x/3) + C",
+        "ln|x - 3| - ln|x + 3| + C"
+      ],
+      "correctAnswer": 0,
+      "feedback": "Let u = x² - 9 ⇒ du = 2x dx ⇒ ∫du/u = ln|u| + C"
+    },
+    {
+      "id": "6.1.3",
+      "chapterId": "6",
+      "question": "Evaluate ∫1/(x² + 4x + 3) dx",
+      "options": [
+        "ln|x + 3| + C",
+        "ln|x + 1| + C",
+        "(1/2)ln|(x+1)/(x+3)| + C",
+        "(1/2)ln|(x+1)/(x+3)| + C"
+      ],
+      "correctAnswer": 3,
+      "feedback": "Factor the denominator as (x + 1)(x + 3); use partial fractions."
+    },
+    {
+      "id": "6.1.4",
+      "chapterId": "6",
+      "question": "Evaluate ∫1/(x(x+2)) dx",
+      "options": [
+        "(1/3)(ln|x| - ln|x+2|) + C",
+        "ln|x+2| - ln|x| + C",
+        "(1/2)ln|x² + 2x| + C",
+        "ln|x(x+2)| + C"
+      ],
+      "correctAnswer": 0,
+      "feedback": "1/(x(x+2)) = (1/2)(1/x - 1/(x+2))"
+    },
+    {
+      "id": "6.1.5",
+      "chapterId": "6",
+      "question": "Evaluate ∫x/(x²+1) dx",
+      "options": [
+        "arctan(x) + C",
+        "(1/2)ln(x²+1) + C",
+        "ln|x²+1| + C",
+        "(1/2)arctan(x) + C"
+      ],
+      "correctAnswer": 1,
+      "feedback": "Let u = x² + 1 ⇒ du = 2x dx ⇒ (1/2)∫du/u"
+    },
+    {
+      "id": "6.1.6",
+      "chapterId": "6",
+      "question": "Evaluate ∫1/(x²+9) dx",
+      "options": [
+        "(1/3)arctan(x/3) + C",
+        "arctan(3x) + C",
+        "ln|x²+9| + C",
+        "3 arctan(x/3) + C"
+      ],
+      "correctAnswer": 0,
+      "feedback": "Formula: ∫dx/(x²+a²) = (1/a)arctan(x/a) + C"
+    },
+    {
+      "id": "6.1.7",
+      "chapterId": "6",
+      "question": "Evaluate ∫(x+1)/(x²+2x+2) dx",
+      "options": [
+        "(1/2)ln(x² + 2x + 2) + C",
+        "arctan(x+1) + C",
+        "ln|x+1| + C",
+        "ln|x² + 2x + 2| + C"
+      ],
+      "correctAnswer": 0,
+      "feedback": "Let u = x² + 2x + 2 ⇒ du = 2(x+1)dx"
+    },
+    {
+      "id": "6.1.8",
+      "chapterId": "6",
+      "question": "Evaluate ∫1/(x-2)² dx",
+      "options": [
+        "ln|x-2| + C",
+        "(1/2)(x-2)² + C",
+        "-1/(x-2) + C",
+        "(x-2)⁻¹ + C"
+      ],
+      "correctAnswer": 2,
+      "feedback": "Formula: ∫(x-a)⁻² dx = -(x-a)⁻¹ + C"
+    },
+    {
+      "id": "6.1.9",
+      "chapterId": "6",
+      "question": "Evaluate ∫(3x+2)/(x²+x) dx",
+      "options": [
+        "2ln|x| + ln|x+1| + C",
+        "(1/2)ln|x² + x| + C",
+        "ln|x| + ln|x+1| + C",
+        "3ln|x| + 2ln|x+1| + C"
+      ],
+      "correctAnswer": 0,
+      "feedback": "(3x+2)/(x(x+1)) = 2/x + 1/(x+1)"
+    },
+    {
+      "id": "6.1.10",
+      "chapterId": "6",
+      "question": "Evaluate ∫1/(x² + 2x + 5) dx",
+      "options": [
+        "(1/2)ln(x² + 2x + 5) + C",
+        "ln|x² + 2x + 5| + C",
+        "(1/2)arctan((x+1)/2) + C",
+        "arctan(x + 1) + C"
+      ],
+      "correctAnswer": 2,
+      "feedback": "Complete the square: x² + 2x + 5 = (x + 1)² + 4"
+    },
+    {
+      "id": "6.1.11",
+      "chapterId": "6",
+      "question": "Evaluate ∫x²/(x³ - 1) dx",
+      "options": [
+        "ln|x³ - 1| + C",
+        "(1/3)ln|x³ - 1| + C",
+        "arctan(x³) + C",
+        "(1/2)ln|x³ - 1| + C"
+      ],
+      "correctAnswer": 1,
+      "feedback": "Let u = x³ - 1 ⇒ du = 3x² dx. Then ∫x²/(x³ - 1) dx = (1/3)∫du/u = (1/3)ln|u| + C."
+    },
+    {
+      "id": "6.1.12",
+      "chapterId": "6",
+      "question": "Evaluate ∫(x + 2)/(x² - x - 2) dx",
+      "options": [
+        "ln|x + 1| - ln|x - 2| + C",
+        "(1/2)ln|(x - 2)/(x + 1)| + C",
+        "(4/3)ln|x - 2| - (1/3)ln|x + 1| + C",
+        "ln|x² - x - 2| + C"
+      ],
+      "correctAnswer": 2,
+      "feedback": "Factor denominator: x² - x - 2 = (x - 2)(x + 1). Partial fraction decomposition gives (x + 2)/((x - 2)(x + 1)) = (4/3)/(x - 2) - (1/3)/(x + 1)"
+    },
+    {
+      "id": "6.1.13",
+      "chapterId": "6",
+      "question": "Evaluate ∫(x-1)/(x(x²+1)) dx",
+      "options": [
+        "ln|x| - (1/2)ln(x² + 1) + C",
+        "-ln|x| + (1/2)ln(x² + 1) + arctan(x) + C",
+        "arctan(x) + C",
+        "ln|x² + 1| + C"
+      ],
+      "correctAnswer": 1,
+      "feedback": "Partial fractions give (x-1)/(x(x²+1)) = -1/x + (x+1)/(x²+1). Integrate: -∫1/x dx + ∫x/(x²+1) dx + ∫1/(x²+1) dx."
+    },
+    {
+      "id": "6.1.14",
+      "chapterId": "6",
+      "question": "Evaluate ∫(2x+3)/(x+1)² dx",
+      "options": [
+        "(1/2)ln|x+1| + C",
+        "-1/(x+1) + C",
+        "2ln|x+1| - 1/(x+1) + C",
+        "arctan(x+1) + C"
+      ],
+      "correctAnswer": 2,
+      "feedback": "Let u = x+1. Then 2x+3 = 2u+1 and (2u+1)/u² = 2/u + 1/u². Integrate termwise."
+    },
+    {
+      "id": "6.1.15",
+      "chapterId": "6",
+      "question": "Evaluate ∫1/(x²-4x+8) dx",
+      "options": [
+        "(1/2)arctan((x-2)/2) + C",
+        "arctan(x-2) + C",
+        "ln|x²-4x+8| + C",
+        "(1/2)ln|x-2| + C"
+      ],
+      "correctAnswer": 0,
+      "feedback": "Complete the square: x²-4x+8 = (x-2)² + 4. Use ∫du/(u²+a²) = (1/a)arctan(u/a) + C with u = x-2, a = 2."
+    },
+    {
+      "id": "6.1.16",
+      "chapterId": "6",
+      "question": "Evaluate ∫(5x+1)/(x²+3x+2) dx",
+      "options": [
+        "ln|x+1| + ln|x+2| + C",
+        "ln|x²+3x+2| + C",
+        "-4ln|x+1| + 9ln|x+2| + C",
+        "2ln|x+1| + C"
+      ],
+      "correctAnswer": 2,
+      "feedback": "Factor denominator (x+1)(x+2). Partial fraction decomposition yields (5x+1)/((x+1)(x+2)) = -4/(x+1) + 9/(x+2)"
+    },
+    {
+      "id": "6.1.17",
+      "chapterId": "6",
+      "question": "Evaluate ∫(x²+1)/((x-1)(x²+1)) dx",
+      "options": [
+        "ln|x-1| + C",
+        "arctan(x) + C",
+        "ln|x²+1| + C",
+        "(1/2)ln|x-1| + C"
+      ],
+      "correctAnswer": 0,
+      "feedback": "Cancel x²+1 in numerator and denominator to get ∫1/(x-1) dx."
+    },
+    {
+      "id": "6.1.18",
+      "chapterId": "6",
+      "question": "Evaluate ∫(2x+1)/(x²+4x+5) dx",
+      "options": [
+        "ln(x²+4x+5) + C",
+        "ln(x²+4x+5) - 3arctan(x+2) + C",
+        "arctan(x+2) + C",
+        "ln|x+2| + C"
+      ],
+      "correctAnswer": 1,
+      "feedback": "Complete the square: let u = x+2. Then denominator = u² + 1 and numerator 2x+1 = 2u - 3. Split integral: ∫2u/(u²+1) du - 3∫1/(u²+1) du = ln(u²+1) - 3arctan(u) + C."
+    },
+    {
+      "id": "6.1.19",
+      "chapterId": "6",
+      "question": "Evaluate ∫1/((x+1)(x²+1)) dx",
+      "options": [
+        "(1/2)ln|x+1| + arctan(x) + C",
+        "(1/2)ln|x+1| - (1/4)ln(x²+1) + (1/2)arctan(x) + C",
+        "arctan(x) + C",
+        "(1/2)ln(x²+1) + C"
+      ],
+      "correctAnswer": 1,
+      "feedback": "Partial fractions give 1/((x+1)(x²+1)) = 1/(2(x+1)) - (x-1)/(2(x²+1)). Integrate each component."
+    },
+    {
+      "id": "6.1.20",
+      "chapterId": "6",
+      "question": "Evaluate ∫(x²+2x+2)/((x+1)(x²+1)) dx",
+      "options": [
+        "arctan(x) + C",
+        "ln|x+1| + arctan(x) + C",
+        "(1/2)ln|x+1| + (1/4)ln(x²+1) + (3/2)arctan(x) + C",
+        "ln|x²+1| + C"
+      ],
+      "correctAnswer": 2,
+      "feedback": "Partial fractions yield (x²+2x+2)/((x+1)(x²+1)) = 1/(2(x+1)) + (x+3)/(2(x²+1)). Integrate termwise."
+    },
+    {
+      "id": "7.1.1",
+      "chapterId": "7",
+      "question": "The definite integral of a function f(x) from a to b represents:",
+      "options": [
+        "The slope of the curve at x = a",
+        "The total area between the curve and the x-axis from a to b",
+        "The instantaneous rate of change of f(x)",
+        "The maximum value of f(x)"
+      ],
+      "correctAnswer": 1,
+      "feedback": "The definite integral ∫ₐᵇ f(x) dx measures the net area under the curve of f(x) between x = a and x = b."
+    },
+    {
+      "id": "7.1.2",
+      "chapterId": "7",
+      "question": "If f(x) is continuous on [a, b], then the definite integral is defined as the limit of a:",
+      "options": [
+        "Differential sum",
+        "Taylor series",
+        "Riemann sum",
+        "Partial sum"
+      ],
+      "correctAnswer": 2,
+      "feedback": "The definite integral is the limit of a Riemann sum as the number of subintervals approaches infinity."
+    },
+    {
+      "id": "7.1.3",
+      "chapterId": "7",
+      "question": "The expression ∫ₐᵇ f(x) dx = limₙ→∞ Σᵢ₌₁ⁿ f(xᵢ)*Δx defines the:",
+      "options": [
+        "Indefinite integral",
+        "Riemann sum definition of the definite integral",
+        "Antiderivative",
+        "Mean value of a function"
+      ],
+      "correctAnswer": 1,
+      "feedback": "This formula expresses the definite integral as the limit of a Riemann sum over the interval [a, b]."
+    },
+    {
+      "id": "7.1.4",
+      "chapterId": "7",
+      "question": "The symbol dx in ∫ₐᵇ f(x) dx represents:",
+      "options": [
+        "The slope of the tangent line",
+        "The increment or change in x",
+        "The rate of change of f(x)",
+        "The differential of f(x)"
+      ],
+      "correctAnswer": 1,
+      "feedback": "In the integral, dx indicates a small change or increment in the variable x."
+    },
+    {
+      "id": "7.1.5",
+      "chapterId": "7",
+      "question": "When f(x) ≥ 0 on [a, b], the value of ∫ₐᵇ f(x) dx represents:",
+      "options": [
+        "The negative area under the curve",
+        "The average rate of change",
+        "The positive area under the curve",
+        "The derivative of f(x)"
+      ],
+      "correctAnswer": 2,
+      "feedback": "If the function is nonnegative, the definite integral equals the area under the curve above the x-axis."
+    },
+    {
+      "id": "7.1.6",
+      "chapterId": "7",
+      "question": "The property ∫ₐᵃ f(x) dx = 0 implies that:",
+      "options": [
+        "The interval has no width",
+        "The function equals zero",
+        "The area is infinite",
+        "The curve is discontinuous"
+      ],
+      "correctAnswer": 0,
+      "feedback": "Since the limits of integration are the same, there is no interval length, so the area is zero."
+    },
+    {
+      "id": "7.1.7",
+      "chapterId": "7",
+      "question": "Which property of definite integrals states that changing the limits reverses the sign?",
+      "options": [
+        "∫ₐᵃ f(x) dx = 0",
+        "∫ₐᵇ f(x) dx = -∫ᵇₐ f(x) dx",
+        "∫ₐᵇ kf(x) dx = k∫ₐᵇ f(x) dx",
+        "∫ₐᵇ [f(x) + g(x)] dx = ∫ₐᵇ f(x) dx + ∫ₐᵇ g(x) dx"
+      ],
+      "correctAnswer": 1,
+      "feedback": "Reversing the order of limits in a definite integral changes its sign."
+    },
+    {
+      "id": "7.1.8",
+      "chapterId": "7",
+      "question": "If f(x) = 3x², then ∫₀² f(x) dx equals:",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "correctAnswer": 2,
+      "feedback": "∫₀² 3x² dx = [x³]₀² = 8."
+    },
+    {
+      "id": "7.1.9",
+      "chapterId": "7",
+      "question": "Which of the following properties is true for all continuous functions?",
+      "options": [
+        "∫ₐᵇ[f(x) + g(x)]dx = ∫ₐᵇf(x)dx + ∫ₐᵇg(x)dx",
+        "∫ₐᵇ[f(x) - g(x)]dx = ∫ₐᵇf(x)dx · ∫ₐᵇg(x)dx",
+        "∫ₐᵇf(x)dx = ∫ₐᵇg(x)dx",
+        "∫ₐᵇf(x)dx = f(b) - f(a)"
+      ],
+      "correctAnswer": 0,
+      "feedback": "The integral of a sum equals the sum of the integrals, one of the key linear properties."
+    },
+    {
+      "id": "7.1.10",
+      "chapterId": "7",
+      "question": "The Fundamental Theorem of Calculus links:",
+      "options": [
+        "Integration and area",
+        "Differentiation and integration",
+        "Limits and series",
+        "Algebra and geometry"
+      ],
+      "correctAnswer": 1,
+      "feedback": "It states that integration and differentiation are inverse processes."
+    },
+    {
+      "id": "7.1.11",
+      "chapterId": "7",
+      "question": "If F'(x) = f(x), then ∫ₐᵇ f(x) dx =",
+      "options": [
+        "F'(b) - F'(a)",
+        "F(b) + F(a)",
+        "F(b) - F(a)",
+        "F(a)F(b)"
+      ],
+      "correctAnswer": 2,
+      "feedback": "The Fundamental Theorem of Calculus gives ∫ₐᵇ f(x) dx = F(b) - F(a)."
+    },
+    {
+      "id": "7.1.12",
+      "chapterId": "7",
+      "question": "Which of the following expresses the second part of the Fundamental Theorem of Calculus?",
+      "options": [
+        "d/dx[∫ₐˣ f(t)dt] = f(x)",
+        "∫ₐᵇ f'(x)dx = 0",
+        "d/dx[f(x)] = 0",
+        "∫ₐᵇ f(x)dx = F'(b) - F'(a)"
+      ],
+      "correctAnswer": 0,
+      "feedback": "Differentiating the integral from a to x of f(t) gives f(x)."
+    },
+    {
+      "id": "7.1.13",
+      "chapterId": "7",
+      "question": "Evaluate ∫₀² (2x+3) dx",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "24"
+      ],
+      "correctAnswer": 1,
+      "feedback": "The integral evaluates to 10 after substituting the limits."
+    },
+    {
+      "id": "7.1.14",
+      "chapterId": "7",
+      "question": "Evaluate ∫₀^π sin(x) dx",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "-2"
+      ],
+      "correctAnswer": 2,
+      "feedback": "∫₀^π sin(x) dx = [-cos(x)]₀^π = 2."
+    },
+    {
+      "id": "7.1.15",
+      "chapterId": "7",
+      "question": "Evaluate ∫₀¹ x² dx",
+      "options": [
+        "1",
+        "1/2",
+        "1/3",
+        "3"
+      ],
+      "correctAnswer": 2,
+      "feedback": "∫₀¹ x² dx = [x³/3]₀¹ = 1/3."
+    },
+    {
+      "id": "7.1.16",
+      "chapterId": "7",
+      "question": "The definite integral ∫ₐᵇ f(x) dx is negative when:",
+      "options": [
+        "f(x) lies above the x-axis",
+        "f(x) is increasing",
+        "f(x) lies below the x-axis",
+        "f(x) = 0"
+      ],
+      "correctAnswer": 2,
+      "feedback": "The integral takes a negative value for the area below the x-axis."
+    },
+    {
+      "id": "7.1.17",
+      "chapterId": "7",
+      "question": "The total area bounded by y = x², x = 0, and x = 2 is:",
+      "options": [
+        "2",
+        "4",
+        "8/3",
+        "16/3"
+      ],
+      "correctAnswer": 2,
+      "feedback": "∫₀² x² dx = [x³/3]₀² = 8/3."
+    },
+    {
+      "id": "7.1.18",
+      "chapterId": "7",
+      "question": "The expression ∫₀² (3t² + 2t) dt represents:",
+      "options": [
+        "The slope of the function",
+        "The total distance or displacement of motion",
+        "The rate of acceleration",
+        "The average velocity"
+      ],
+      "correctAnswer": 1,
+      "feedback": "Integrating velocity with respect to time gives the displacement."
+    },
+    {
+      "id": "7.1.19",
+      "chapterId": "7",
+      "question": "If f(x) ≤ 0 on [a, b], then ∫ₐᵇ f(x) dx represents:",
+      "options": [
+        "Positive area under the curve",
+        "Negative area below the x-axis",
+        "Slope of the tangent line",
+        "Volume of revolution"
+      ],
+      "correctAnswer": 1,
+      "feedback": "When f(x) is negative, the integral gives the negative of the area below the x-axis."
+    },
+    {
+      "id": "7.1.20",
+      "chapterId": "7",
+      "question": "Definite integrals are useful for computing all of the following except:",
+      "options": [
+        "Area under a curve",
+        "Volume of solids of revolution",
+        "Instantaneous velocity",
+        "Total accumulated quantity"
+      ],
+      "correctAnswer": 2,
+      "feedback": "Instantaneous velocity is found using derivatives, not definite integrals."
+    },
+    {
+      "id": "8.1.1",
+      "chapterId": "8",
+      "question": "The area under the curve y = f(x) from x = a to x = b is given by:",
+      "options": [
+        "∫ₐᵇ f(x) dx",
+        "∫ₐᵇ f(x) dx",
+        "∫ₐᵇ f'(x) dx",
+        "∫ₐᵇ xf(x) dx"
+      ],
+      "correctAnswer": 1,
+      "feedback": "The definite integral ∫ₐᵇ f(x) dx represents the signed area under the curve from x = a to x = b."
+    },
+    {
+      "id": "8.1.2",
+      "chapterId": "8",
+      "question": "If f(x) = x², what is the area under the curve from x = 0 to x = 2?",
+      "options": [
+        "2",
+        "8/3",
+        "4/3",
+        "3"
+      ],
+      "correctAnswer": 1,
+      "feedback": "A = ∫₀² x² dx = [x³/3]₀² = 8/3."
+    },
+    {
+      "id": "8.1.3",
+      "chapterId": "8",
+      "question": "The area between two curves y = f(x) and y = g(x) from x = a to x = b is:",
+      "options": [
+        "∫ₐᵇ [f(x) + g(x)] dx",
+        "∫ₐᵇ [f(x) - g(x)] dx",
+        "∫ₐᵇ [g(x) - f(x)] dx",
+        "∫ₐᵇ f(x) g(x) dx"
+      ],
+      "correctAnswer": 1,
+      "feedback": "The area between curves equals the integral of the difference of the top function and the bottom function."
+    },
+    {
+      "id": "8.1.4",
+      "chapterId": "8",
+      "question": "Find the area between y = x² and y = 2x from x = 0 to x = 2.",
+      "options": [
+        "4/3",
+        "8/3",
+        "10/3",
+        "12/3"
+      ],
+      "correctAnswer": 2,
+      "feedback": "A = ∫₀² (2x - x²) dx = [x² - x³/3]₀² = 4 - 8/3 = 10/3."
+    },
+    {
+      "id": "8.1.5",
+      "chapterId": "8",
+      "question": "The volume of a solid generated by revolving y = f(x) about the x-axis is given by:",
+      "options": [
+        "V = 2π∫ₐᵇ x f(x) dx",
+        "V = π∫ₐᵇ [f(x)]² dx",
+        "V = π∫ₐᵇ f(x) dx",
+        "V = π∫ₐᵇ [f'(x)]² dx"
+      ],
+      "correctAnswer": 1,
+      "feedback": "The Disk Method formula for volume about the x-axis is V = π∫ₐᵇ [f(x)]² dx."
+    },
+    {
+      "id": "8.1.6",
+      "chapterId": "8",
+      "question": "Using the disk method, find the volume of the solid generated by revolving y = √x from x = 0 to x = 4 about the x-axis.",
+      "options": [
+        "2π",
+        "4π",
+        "8π",
+        "16π"
+      ],
+      "correctAnswer": 2,
+      "feedback": "V = π∫₀⁴ (√x)² dx = π∫₀⁴ x dx = π[x²/2]₀⁴ = 8π."
+    },
+    {
+      "id": "8.1.7",
+      "chapterId": "8",
+      "question": "The washer method is used when:",
+      "options": [
+        "The solid is a perfect cylinder",
+        "The solid has a hole in the center",
+        "The function has discontinuities",
+        "The region is under the x-axis"
+      ],
+      "correctAnswer": 1,
+      "feedback": "The washer method applies to solids of revolution with an inner and outer radius (a hollow solid)."
+    },
+    {
+      "id": "8.1.8",
+      "chapterId": "8",
+      "question": "Which of the following represents the washer method formula?",
+      "options": [
+        "V = 2π∫ₐᵇ r h dx",
+        "V = π∫ₐᵇ (R² - r²) dx",
+        "V = π∫ₐᵇ Rr dx",
+        "V = π∫ₐᵇ (R - r) dx"
+      ],
+      "correctAnswer": 1,
+      "feedback": "The volume of a washer-shaped solid is V = π∫ₐᵇ (R² - r²) dx."
+    },
+    {
+      "id": "8.1.9",
+      "chapterId": "8",
+      "question": "The shell method is most useful when:",
+      "options": [
+        "Rotating around the x-axis",
+        "Rotating around the y-axis",
+        "Rotating around both axes",
+        "The function is not continuous"
+      ],
+      "correctAnswer": 1,
+      "feedback": "The shell method is typically used when the solid is revolved about the y-axis (especially when integrating with respect to x)."
+    },
+    {
+      "id": "8.1.10",
+      "chapterId": "8",
+      "question": "The formula for the shell method is:",
+      "options": [
+        "V = 2π∫ₐᵇ x f(x) dx",
+        "V = π∫ₐᵇ [f(x)]² dx",
+        "V = π∫ₐᵇ f(x) dx",
+        "V = ∫ₐᵇ f(x) dx"
+      ],
+      "correctAnswer": 0,
+      "feedback": "The volume by the shell method is V = 2π∫ₐᵇ x f(x) dx."
+    },
+    {
+      "id": "8.1.11",
+      "chapterId": "8",
+      "question": "The arc length of a curve y = f(x) is given by:",
+      "options": [
+        "L = ∫ₐᵇ √(1 + f(x)²) dx",
+        "L = ∫ₐᵇ √(1 + (f'(x))²) dx",
+        "L = ∫ₐᵇ (f'(x))² dx",
+        "L = ∫ₐᵇ f'(x) dx"
+      ],
+      "correctAnswer": 1,
+      "feedback": "The formula for arc length is L = ∫ₐᵇ √(1 + (dy/dx)²) dx."
+    },
+    {
+      "id": "8.1.12",
+      "chapterId": "8",
+      "question": "For the curve y = x^(3/2), dy/dx = ?",
+      "options": [
+        "(3/2)x^(1/2)",
+        "(3/2)x^(3/2)",
+        "(1/2)x^(1/2)",
+        "3x²"
+      ],
+      "correctAnswer": 0,
+      "feedback": "By power rule, dy/dx = (3/2)x^(1/2)."
+    },
+    {
+      "id": "8.1.13",
+      "chapterId": "8",
+      "question": "The surface area of revolution about the x-axis is given by:",
+      "options": [
+        "S = 2π∫ₐᵇ f(x) dx",
+        "S = 2π∫ₐᵇ f(x)√(1 + (f'(x))²) dx",
+        "S = π∫ₐᵇ f(x) dx",
+        "S = π∫ₐᵇ [f(x)]² dx"
+      ],
+      "correctAnswer": 1,
+      "feedback": "The formula is S = 2π∫ₐᵇ f(x)√(1 + (f'(x))²) dx."
+    },
+    {
+      "id": "8.1.14",
+      "chapterId": "8",
+      "question": "In physics, the work done by a variable force F(x) moving an object from x = a to x = b is:",
+      "options": [
+        "W = F(b - a)",
+        "W = ∫ₐᵇ F(x) dx",
+        "W = ∫ₐᵇ xF(x) dx",
+        "W = ∫ₐᵇ F'(x) dx"
+      ],
+      "correctAnswer": 1,
+      "feedback": "Work is the integral of force over distance: W = ∫ₐᵇ F(x) dx."
+    },
+    {
+      "id": "8.1.15",
+      "chapterId": "8",
+      "question": "If a force F(x) = 3x² acts from x = 0 to x = 2, the work done is:",
+      "options": [
+        "4 J",
+        "6 J",
+        "8 J",
+        "12 J"
+      ],
+      "correctAnswer": 2,
+      "feedback": "W = ∫₀² 3x² dx = [x³]₀² = 8."
+    },
+    {
+      "id": "8.1.16",
+      "chapterId": "8",
+      "question": "In rectilinear motion, if v(t) = ds/dt, then s(t) =",
+      "options": [
+        "∫v(t) dt",
+        "dv/dt",
+        "∫a(t) dt",
+        "v(t) + a(t)"
+      ],
+      "correctAnswer": 0,
+      "feedback": "Position is the integral of velocity: s(t) = ∫v(t) dt."
+    },
+    {
+      "id": "8.1.17",
+      "chapterId": "8",
+      "question": "If a(t) = 6t and v(0) = 2, find v(t).",
+      "options": [
+        "3t² + 2",
+        "6t + 2",
+        "6t² + 2",
+        "2t³ + 2"
+      ],
+      "correctAnswer": 0,
+      "feedback": "v(t) = ∫6t dt = 3t² + C. Given v(0) = 2, so C = 2."
+    },
+    {
+      "id": "8.1.18",
+      "chapterId": "8",
+      "question": "The displacement of an object from t₁ to t₂ is:",
+      "options": [
+        "∫ₜ₁ᵗ² |v(t)| dt",
+        "∫ₜ₁ᵗ² v(t) dt",
+        "∫ₜ₁ᵗ² a(t) dt",
+        "ds/dt"
+      ],
+      "correctAnswer": 1,
+      "feedback": "Displacement equals the definite integral of velocity over time."
+    },
+    {
+      "id": "8.1.19",
+      "chapterId": "8",
+      "question": "The total distance traveled by an object is:",
+      "options": [
+        "∫|a(t)| dt",
+        "∫|v(t)| dt",
+        "∫v(t) dt",
+        "∫tv(t) dt"
+      ],
+      "correctAnswer": 1,
+      "feedback": "Distance considers the absolute value of velocity because direction does not matter."
+    },
+    {
+      "id": "8.1.20",
+      "chapterId": "8",
+      "question": "If v(t) = 4t - 2 and s(0) = 0, what is s(3)?",
+      "options": [
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      "correctAnswer": 3,
+      "feedback": "s(t) = ∫(4t - 2)dt = 2t² - 2t, s(3) = 2(9) - 2(3) = 18 - 6 = 12."
+    },
+    {
+      "id": "9.1.1",
+      "chapterId": "9",
+      "question": "Evaluate ∬ᴿ 2x dA, where R is bounded by 0 ≤ x ≤ 3, 0 ≤ y ≤ 2.",
+      "options": [
+        "9",
+        "12",
+        "18",
+        "6"
+      ],
+      "correctAnswer": 2,
+      "feedback": "∬ᴿ 2x dA = ∫₀³∫₀² 2x dy dx = ∫₀³ 2x(2) dx = 4∫₀³ x dx = 4[x²/2]₀³ = 4·9/2 = 18."
+    },
+    {
+      "id": "9.1.2",
+      "chapterId": "9",
+      "question": "Evaluate ∬ᴿ (x + y) dA, where 0 ≤ x ≤ 2, 0 ≤ y ≤ 3.",
+      "options": [
+        "10",
+        "15",
+        "12",
+        "9"
+      ],
+      "correctAnswer": 1,
+      "feedback": "∫₀²∫₀³ (x + y) dy dx = ∫₀²[xy + y²/2]₀³ dx = ∫₀²(3x + 9/2) dx = [3x²/2 + 9x/2]₀² = 6 + 9 = 15."
+    },
+    {
+      "id": "9.1.3",
+      "chapterId": "9",
+      "question": "Evaluate ∬ᴿ xy dA, where 1 ≤ x ≤ 3, 2 ≤ y ≤ 4.",
+      "options": [
+        "24",
+        "12",
+        "18",
+        "30"
+      ],
+      "correctAnswer": 0,
+      "feedback": "∫₁³∫₂⁴ xy dy dx = ∫₁³ x[y²/2]₂⁴ dx = ∫₁³ x(8 - 2) dx = ∫₁³ 6x dx = 6[x²/2]₁³ = 3(9-1) = 24."
+    },
+    {
+      "id": "9.1.4",
+      "chapterId": "9",
+      "question": "Find the area of R bounded by 0 ≤ x ≤ 2, 0 ≤ y ≤ 3 via ∬ᴿ 1 dA.",
+      "options": [
+        "5",
+        "6",
+        "4",
+        "3"
+      ],
+      "correctAnswer": 1,
+      "feedback": "∬ᴿ 1 dA = ∫₀²∫₀³ 1 dy dx = ∫₀² 3 dx = 3x|₀² = 6."
+    },
+    {
+      "id": "9.1.5",
+      "chapterId": "9",
+      "question": "Evaluate ∬ᴿ 3x² dA, where 0 ≤ x ≤ 2, 0 ≤ y ≤ 1.",
+      "options": [
+        "4",
+        "8",
+        "12",
+        "2"
+      ],
+      "correctAnswer": 1,
+      "feedback": "∫₀²∫₀¹ 3x² dy dx = ∫₀² 3x²(1) dx = 3[x³/3]₀² = [x³]₀² = 8."
+    },
+    {
+      "id": "9.1.6",
+      "chapterId": "9",
+      "question": "Evaluate ∬ᴿ (x² + y²) dA, where 0 ≤ x ≤ 1, 0 ≤ y ≤ 2.",
+      "options": [
+        "10/3",
+        "8/3",
+        "7/3",
+        "4"
+      ],
+      "correctAnswer": 0,
+      "feedback": "∫₀¹∫₀² (x² + y²) dy dx = ∫₀¹[x²y + y³/3]₀² dx = ∫₀¹(2x² + 8/3) dx = [2x³/3 + 8x/3]₀¹ = 2/3 + 8/3 = 10/3."
+    },
+    {
+      "id": "9.1.7",
+      "chapterId": "9",
+      "question": "Evaluate ∬ᴿ xy² dA, where 0 ≤ x ≤ 2, 0 ≤ y ≤ 1.",
+      "options": [
+        "1/2",
+        "1",
+        "2/3",
+        "3/2"
+      ],
+      "correctAnswer": 2,
+      "feedback": "∫₀²∫₀¹ xy² dy dx = ∫₀² x[y³/3]₀¹ dx = ∫₀² x·1/3 dx = (1/3)[x²/2]₀² = (1/3)·2 = 2/3."
+    },
+    {
+      "id": "9.1.8",
+      "chapterId": "9",
+      "question": "Evaluate ∬ᴿ e^x dA, where 0 ≤ x ≤ 1, 0 ≤ y ≤ 2.",
+      "options": [
+        "e - 1",
+        "2(e - 1)",
+        "e",
+        "2e"
+      ],
+      "correctAnswer": 1,
+      "feedback": "∫₀¹∫₀² e^x dy dx = ∫₀¹ e^x(2) dx = 2∫₀¹ e^x dx = 2[e^x]₀¹ = 2(e - 1)."
+    },
+    {
+      "id": "9.1.9",
+      "chapterId": "9",
+      "question": "Evaluate ∬ᴿ (2x + 3y) dA, where 0 ≤ x ≤ 1, 0 ≤ y ≤ 2.",
+      "options": [
+        "7",
+        "10",
+        "6",
+        "8"
+      ],
+      "correctAnswer": 3,
+      "feedback": "∫₀¹∫₀² (2x + 3y) dy dx = ∫₀¹[2xy + 3y²/2]₀² dx = ∫₀¹(4x + 6) dx = [2x² + 6x]₀¹ = 2 + 6 = 8."
+    },
+    {
+      "id": "9.1.10",
+      "chapterId": "9",
+      "question": "Evaluate ∬ᴿ y dA, where 1 ≤ x ≤ 4, 0 ≤ y ≤ 2.",
+      "options": [
+        "9",
+        "12",
+        "6",
+        "8"
+      ],
+      "correctAnswer": 2,
+      "feedback": "∫₁⁴∫₀² y dy dx = ∫₁⁴[y²/2]₀² dx = ∫₁⁴ 2 dx = 2(x)|₁⁴ = 2·3 = 6."
+    },
+    {
+      "id": "9.1.11",
+      "chapterId": "9",
+      "question": "Evaluate ∬ᴿ 5xy dA, where 0 ≤ x ≤ 1, 0 ≤ y ≤ 2.",
+      "options": [
+        "5",
+        "10",
+        "5/2",
+        "25/2"
+      ],
+      "correctAnswer": 0,
+      "feedback": "∫₀¹∫₀² 5xy dy dx = 5∫₀¹ x[y²/2]₀² dx = 5∫₀¹ x·2 dx = 5[x²]₀¹ = 5."
+    },
+    {
+      "id": "9.1.12",
+      "chapterId": "9",
+      "question": "Evaluate ∬ᴿ (x + 2y) dA, where 0 ≤ x ≤ 2, 0 ≤ y ≤ 4.",
+      "options": [
+        "32",
+        "40",
+        "24",
+        "16"
+      ],
+      "correctAnswer": 1,
+      "feedback": "∫₀²∫₀⁴ (x + 2y) dy dx = ∫₀²[xy + y²]₀⁴ dx = ∫₀²(4x + 16) dx = [2x² + 16x]₀² = 8 + 32 = 40."
+    },
+    {
+      "id": "9.1.13",
+      "chapterId": "9",
+      "question": "Evaluate ∬ᴿ (3x - y) dA, where 0 ≤ x ≤ 2, 0 ≤ y ≤ 2.",
+      "options": [
+        "4",
+        "8",
+        "12",
+        "0"
+      ],
+      "correctAnswer": 1,
+      "feedback": "∫₀²∫₀² (3x - y) dy dx = ∫₀²[3xy - y²/2]₀² dx = ∫₀²(6x - 2) dx = [3x² - 2x]₀² = 12 - 4 = 8."
+    },
+    {
+      "id": "9.1.14",
+      "chapterId": "9",
+      "question": "Evaluate ∬ᴿ x³y dA, where 0 ≤ x ≤ 1, 0 ≤ y ≤ 2.",
+      "options": [
+        "1/4",
+        "1/2",
+        "1/8",
+        "1"
+      ],
+      "correctAnswer": 1,
+      "feedback": "∫₀¹∫₀² x³y dy dx = ∫₀¹ x³[y²/2]₀² dx = ∫₀¹ x³·2 dx = 2[x⁴/4]₀¹ = 2·1/4 = 1/2."
+    },
+    {
+      "id": "9.1.15",
+      "chapterId": "9",
+      "question": "Evaluate ∬ᴿ sin x dA, where 0 ≤ x ≤ π, 0 ≤ y ≤ 1.",
+      "options": [
+        "2",
+        "1",
+        "0",
+        "π"
+      ],
+      "correctAnswer": 0,
+      "feedback": "∫₀^π∫₀¹ sin x dy dx = ∫₀^π sin x(1) dx = [-cos x]₀^π = 1 + 1 = 2."
+    },
+    {
+      "id": "9.1.16",
+      "chapterId": "9",
+      "question": "Evaluate ∬ᴿ xy³ dA, where 0 ≤ x ≤ 2, 0 ≤ y ≤ 1.",
+      "options": [
+        "1/2",
+        "1/4",
+        "1",
+        "2/3"
+      ],
+      "correctAnswer": 0,
+      "feedback": "∫₀²∫₀¹ xy³ dy dx = ∫₀² x[y⁴/4]₀¹ dx = ∫₀² x·1/4 dx = (1/4)[x²/2]₀² = (1/4)·2 = 1/2."
+    },
+    {
+      "id": "9.1.17",
+      "chapterId": "9",
+      "question": "Evaluate ∬ᴿ 4x²y dA, where 0 ≤ x ≤ 2, 0 ≤ y ≤ 3.",
+      "options": [
+        "32",
+        "48",
+        "16",
+        "24"
+      ],
+      "correctAnswer": 1,
+      "feedback": "∫₀²∫₀³ 4x²y dy dx = 4∫₀² x²[y²/2]₀³ dx = 4∫₀² x²·9/2 dx = 18∫₀² x² dx = 18[x³/3]₀² = 18·8/3 = 48."
+    },
+    {
+      "id": "9.1.18",
+      "chapterId": "9",
+      "question": "Evaluate ∬ᴿ xe^y dA, where 0 ≤ x ≤ 1, 0 ≤ y ≤ ln 2.",
+      "options": [
+        "1/2",
+        "1",
+        "3/2",
+        "ln 2"
+      ],
+      "correctAnswer": 0,
+      "feedback": "∫₀¹∫₀^(ln 2) xe^y dy dx = ∫₀¹ x[e^y]₀^(ln 2) dx = ∫₀¹ x(2 - 1) dx = ∫₀¹ x dx = [x²/2]₀¹ = 1/2."
+    },
+    {
+      "id": "9.1.19",
+      "chapterId": "9",
+      "question": "Evaluate ∬ᴿ xye^x dA, where 0 ≤ x ≤ 1, 0 ≤ y ≤ 2.",
+      "options": [
+        "2(e - 1)",
+        "e - 2",
+        "2(e - 2)",
+        "2e"
+      ],
+      "correctAnswer": 0,
+      "feedback": "∫₀¹∫₀² xye^x dy dx = ∫₀¹ xe^x[y²/2]₀² dx = ∫₀¹ xe^x·2 dx = 2∫₀¹ xe^x dx = 2."
+    },
+    {
+      "id": "9.1.20",
+      "chapterId": "9",
+      "question": "Evaluate ∬ᴿ (2x + y²) dA, where 0 ≤ x ≤ 2, 0 ≤ y ≤ 2.",
+      "options": [
+        "8",
+        "24/3",
+        "12",
+        "10"
+      ],
+      "correctAnswer": 0,
+      "feedback": "∫₀²∫₀² (2x + y²) dy dx = ∫₀²[2xy + y³/3]₀² dx = ∫₀²(4x + 8/3) dx = [2x² + 8x/3]₀² = 8 + 16/3 = 40/3."
+    }
+  ]
